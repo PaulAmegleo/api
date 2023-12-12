@@ -1,17 +1,37 @@
-﻿# working-api
-# AFTER CLONING THIS REPO PROCEED TO THE FRONTEND FOLDER AND CLONE THIS LINK
-https://github.com/PaulAmegleo/frontend.git
+﻿# api
+# AFTER CLONING THIS REPO CREATE A VIRTUAL ENVIRONMENT
+```sh
+python -m venv env
+```
 
 # DONT FORGET TO ACTIVATE THE VIRTUAL ENVIRONMENT USING
+```sh
 env/Scripts/Activate
-
-# THEN INSTALL DJANGO IN THE PROJ FOLDER USING 
-pip install django
+```
+# THEN INSTALL DJANGO IN THE PROJ FOLDER USING
+```sh 
+pip install django \n
+pip install djangorestframework \n
+pip install django-cors-headers
+```
 
 # AFTER THAT, PROCEED TO THE FRONT END FOLDER AND DO 
-npm install
-npm run build
+```sh
+npm install \n
+npm run build \n
 npm start
+```
 
 # GO BACK TO PROJ DIRECTORY THEN RUN THE SERVER
+```sh
 python manage.py runserver
+```
+
+# If you want to acces django admin do 
+```sh
+python manage.py createsuperuser
+```
+# then proceed to 
+```sh
+http://127.0.0.1:8000/admin/
+```
