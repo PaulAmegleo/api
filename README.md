@@ -10,15 +10,15 @@ env/Scripts/Activate
 ```
 # THEN INSTALL DJANGO IN THE PROJ FOLDER USING
 ```sh 
-pip install django \n
-pip install djangorestframework \n
+pip install django 
+pip install djangorestframework 
 pip install django-cors-headers
 ```
 
 # AFTER THAT, PROCEED TO THE FRONT END FOLDER AND DO 
 ```sh
-npm install \n
-npm run build \n
+npm install 
+npm run build 
 npm start
 ```
 
